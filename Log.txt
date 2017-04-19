@@ -2,3 +2,4 @@
 Номерация на лога е препоръчителна
 
 #1 Created log file.
+#2 Created dev and production folders.
