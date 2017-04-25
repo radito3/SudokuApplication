@@ -3,3 +3,5 @@
 
 19.04.2017 #1 Created log file.
 19.04.2017 #2 Created dev and production folders.
+25.04.2017 #3 Crated alg for 4x4 sudoku - Boyan Dimitrov
+
