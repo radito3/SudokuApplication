@@ -3,17 +3,17 @@ var playTable = new Array();
 for ( var row = 0 ; row < 4 ; row++) {
 
     playTable[row] = new Array();
-    for ( var col = 0 ; col < 4; col++) {
-        playTable[row][col]=0;
+    for ( var col = 0 ; col < 4; col++ ) {
+        playTable[row][col] = 0;
     }
 }
 
 var rowPosit, colPosit, playElementValue, sorted = 0;
 
 for( var elementCount = 0 ; elementCount < 8 ; elementCount++) {
-    
+
     sorted = 0;
-    
+
     do {
         rowPosit = Math.floor((Math.random() * 4) + 1) - 1;
         colPosit = Math.floor((Math.random() * 4) + 1) - 1;
@@ -48,7 +48,6 @@ for( var elementCount = 0 ; elementCount < 8 ; elementCount++) {
                     if (playTable[row][col] == playElementValue && row != rowPosit && col != colPosit) {
                         sorted = 1;
                     }
-                    continue;
                 }
             }
         }
@@ -59,7 +58,6 @@ for( var elementCount = 0 ; elementCount < 8 ; elementCount++) {
                     if (playTable[row][col] == playElementValue && row != rowPosit && col != colPosit) {
                         sorted = 1;
                     }
-                    continue;
                 }
             }
         }
@@ -70,7 +68,6 @@ for( var elementCount = 0 ; elementCount < 8 ; elementCount++) {
                     if (playTable[row][col] == playElementValue && row != rowPosit && col != colPosit) {
                         sorted = 1;
                     }
-                    continue;
                 }
             }
         }
@@ -81,7 +78,6 @@ for( var elementCount = 0 ; elementCount < 8 ; elementCount++) {
                     if (playTable[row][col] == playElementValue && row != rowPosit && col != colPosit) {
                         sorted = 1;
                     }
-                    continue;
                 }
             }
         }
