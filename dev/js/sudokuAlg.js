@@ -11,6 +11,9 @@ for ( var row = 0 ; row < 4 ; row++) {
 var rowPosit, colPosit, playElementValue, sorted = 0;
 
 for( var elementCount = 0 ; elementCount < 8 ; elementCount++) {
+    
+    sorted = 0;
+    
     do {
         rowPosit = Math.floor((Math.random() * 4) + 1) - 1;
         colPosit = Math.floor((Math.random() * 4) + 1) - 1;
@@ -83,7 +86,7 @@ for( var elementCount = 0 ; elementCount < 8 ; elementCount++) {
             }
         }
 
-    } while( sorted = 1 );
+    } while( sorted == 1 );
 
     playTable[rowPosit][colPosit] = playElementValue;
 }
