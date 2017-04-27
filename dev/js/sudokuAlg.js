@@ -25,7 +25,7 @@ for (var elementCount = 0; elementCount < 8; elementCount++) {
     do {
         rowPosit = Math.floor((Math.random() * 4) + 1) - 1;
         colPosit = Math.floor((Math.random() * 4) + 1) - 1;
-    } while (playTable[rowPosit][colPosit] == 0);
+    } while (playTable[rowPosit][colPosit] != 0);
     do {
         sorted = 0;
         playElementValue = Math.floor((Math.random() * 4) + 1);
