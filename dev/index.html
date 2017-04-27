@@ -3,11 +3,42 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Sudoku - play online!</title>
+    <link rel="stylesheet" type="text/css" href="css\4x4Styles.css">
 </head>
 
 <body>
 
+    <table id = "4x4Table">
+        <tr>
+            <td id = "0"></td>
+            <td id = "1"></td>
+            <td id = "2"></td>
+            <td id = "3"></td>
+        </tr>
 
+        <tr>
+            <td id = "4"></td>
+            <td id = "5"></td>
+            <td id = "6"></td>
+            <td id = "7"></td>
+        </tr>
+
+        <tr>
+            <td id = "8"></td>
+            <td id = "9"></td>
+            <td id = "10"></td>
+            <td id = "11"></td>
+        </tr>
+
+        <tr>
+            <td id = "12"></td>
+            <td id = "13"></td>
+            <td id = "14"></td>
+            <td id = "15"></td>
+        </tr>
+    </table>
+
+    <button onclick = "getTableElements()">Click me to change the values of the elements in the table</button>
 
 
     <script src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>
