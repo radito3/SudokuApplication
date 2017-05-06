@@ -1,0 +1,28 @@
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+/*stylisation fot the carousel*/
+.carousel-inner img {
+    width: 70%; /* Set width to 100% */
+    margin: auto;
+}
+
+/*stylisation for the history/rules blocks
+.thumbnail {
+    border: none;
+    border-radius: 0;
+}
+*/
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    /*margin-bottom: 10px;*/
+}
+
+#historyAbout {
+    margin: auto;
+}
+
