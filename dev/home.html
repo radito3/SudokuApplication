@@ -4,16 +4,13 @@
     <title>Sudoku - play online </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/homeCss.css">
 
-    <!-- Latest compiled and minified CSS -->
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/homeCss.css">
 </head>
 <body>
 
@@ -24,13 +21,7 @@
         </div>
         <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Page 1-1</a></li>
-                    <li><a href="#">Page 1-2</a></li>
-                    <li><a href="#">Page 1-3</a></li>
-                </ul>
-            </li>
+            <li><a href="#">Page 1</a></li>
             <li><a href="#">Page 2</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
@@ -70,20 +61,37 @@
     </a>
 </div>
 
-<div id = "historyAbout">
-    <div class="col-sm-4">
-        <div class="thumbnail">
-            <img src="img/skutoilet.jpg" alt="Paris">
-            <p><strong>History of Sudoku</strong></p>
+<div id = "historyAbout" class="container">
+    <div class="row text-center">
+        <div class="col-sm-6">
+            <div class="thumbnail">
+                <img src="img/skutoilet.jpg" alt="Paris">
+                <p><strong>History of Sudoku</strong></p>
+            </div>
         </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="thumbnail">
-            <img src="img/skutoilet.jpg" alt="New York">
-            <p><strong>Game Rules</strong></p>
-        </div>
+
+        <div class="col-sm-6"/>
+            <div class="thumbnail">
+                <img src="img/skutoilet.jpg" alt="New York">
+                <p><strong>Game Rules</strong></p>
+            </div>
     </div>
 </div>
+
+<br>
+
+<footer>
+    <div id = "footer_container">
+        <p class = "copyright_text">&copy; copyright 2017 SudokuBoys <br />
+            designed and developed by SudokuBoys</p>
+    </div>
+
+
+    <p id = "centeredEmail">
+        <span class="glyphicon glyphicon-envelope"></span>
+        <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">Email us</a>
+    </p>
+</footer>
 
 <script src = 'js/home.js'></script>
 </body>
