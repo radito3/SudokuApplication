@@ -7,8 +7,4 @@
 06.05.2017 #4 Created a basic home page - Boyan & Lacho
 28.05.2017 #5 Started improvement and refinement changes - Rangel
 29.05.2017 #6 Continuing refinement changes - Rangel
-<<<<<<< HEAD
-29.05.2017 #7 Added History and Variants text - Rangel
-=======
-29.05.2017 #7 Continuing changes - Rangel
->>>>>>> origin/master
+29.05.2017 #7 Added more History text - Rangel
