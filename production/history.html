@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sudoku - play online </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/homeCss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            position: relative;
+        }
+        footer {
+            background-color: #333333;
+            color: white;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="home.html">Sudoku - play online!</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="home.html">Home</a></li>
+                <li class="active"><a href="history.html">History</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <!--<ul class="nav navbar-nav navbar-right">
+                <li><a href="signUp.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>-->
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="jumbotron">
+            <h1>History of Sudoku</h1>
+            <pre>Sudoku is a logic-based, combinatorial number-placement puzzle. The objective is to fill a
+9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the
+rid (also called "boxes", "blocks", or "regions") contains all of the digits from 1 to 9. The puzzle
+setter provides a partially completed grid, which for a well-posed puzzle has a single solution.
+French newspapers featured variations of the puzzles in the 19th century, and the puzzle has appeared
+since 1979 in puzzle books under the name Number Place. However, the modern Sudoku only started to
+become mainstream in 1986 by the Japanese puzzle company Nikoli, under the name Sudoku, meaning "single number".
+It first appeared in a US newspaper and then The Times (UK) in 2004, from the efforts of Wayne Gould, who
+devised a computer program to rapidly produce distinct puzzles.
+
+Number puzzles appeared in newspapers in the late 19th century, when French puzzle setters began experimenting
+with removing numbers from magic squares. Le Siècle, a Paris daily, published a partially completed 9×9 magic
+square with 3×3 subsquares on November 19, 1892. It was not a Sudoku because it contained double-digit
+numbers and required arithmetic rather than logic to solve, but it shared key characteristics: each row, column
+and subsquare added up to the same number.
+
+The modern Sudoku was most likely designed anonymously by Howard Garns, a 74-year-old retired architect and freelance
+puzzle constructor from Connersville, Indiana, and first published in 1979 by Dell Magazines as Number Place
+(the earliest known examples of modern Sudoku). Garns's name was always present on the list of contributors in
+issues of Dell Pencil Puzzles and Word Games that included Number Place, and was always absent from issues that did not.
+
+The puzzle was introduced in Japan by Nikoli in the paper Monthly Nikolist in April 1984 as Sūji wa dokushin ni kagiru,
+which also can be translated as "the digits must be single" or "the digits are limited to one occurrence". At a later date,
+the name was abbreviated to Sudoku by Maki Kaji, taking only the first kanji of compound words to form a shorter version.
+"Sudoku" is a registered trademark in Japan and the puzzle is generally referred to as Number Place or, more informally,
+a portmanteau of the two words, Num(ber) Pla(ce). In 1986, Nikoli introduced two innovations: the number of givens was restricted
+to no more than 32, and puzzles became "symmetrical" (meaning the givens were distributed in rotationally symmetric cells).
+        </pre>
+        <h2>Variants</h2>
+        <pre><strong>Mini Sudoku</strong>
+A variant named "Mini Sudoku" appears in the American newspaper USA Today and elsewhere, which is played on a 6×6 grid with
+3×2 regions. The object is the same as that of standard Sudoku, but the puzzle only uses the numbers 1 through 6.
+
+<strong>Killer Sudoku</strong>
+The Killer Sudoku variant combines elements of Sudoku and Kakuro.
+
+<strong>Alphabetical Sudoku</strong>
+Alphabetical variations have emerged, sometimes called Wordoku; no functional difference exists in the puzzle unless the
+letters spell something.
+
+<strong>Kaodoku</strong>
+Kaodokus use partially given smiley faces instead of digits. The smileys can have three possible shapes and three possible mouths,
+for a total of nine unique combinations. In easy puzzles some full smileys may be given, but the harder ones only contain partial
+cells with either a mouth or a shape. 
+
+<strong>Hypersudoku</strong>
+Hypersudoku is one of the most popular variants. It is published by newspapers and magazines around the world and is also known as
+"NRC Sudoku", "Windoku", "Hyper-Sudoku", and "4 Square Sudoku". The layout is identical to a normal Sudoku, but with additional
+interior squares defined in which the numbers 1 to 9 must appear. The solving algorithm is slightly different from the normal
+Sudoku puzzles because of the emphasis on the overlapping squares.
+
+<strong>Twin Sudoku</strong>
+In Twin Sudoku two regular grids share a 3×3 box. This is one of many possible types of overlapping grids. The rules for each
+individual grid are the same as in normal Sudoku, but the digits in the overlapping section are shared by each half.</pre>
+        </div>
+    </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p class="text-left">Email us:
+    <a href="https://mail.google.com/"><span class="glyphicon glyphicon-envelope"></span></a>
+  </p>
+  <p class="text-right">
+      <a href="https://www.youtube.com/channel/UCVGsym7gSb_lJ7Ls2Uwxuhw?guided_help_flow=3">
+          <span class="glyphicon glyphicon-film"></span>
+      </a>
+  </p>
+</footer>
+
+<script src = 'js/home.js'></script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+</body>
+</html>
