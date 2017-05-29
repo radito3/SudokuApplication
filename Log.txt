@@ -6,3 +6,4 @@
 25.04.2017 #3 Created alg for 4x4 sudoku - Boyan Dimitrov
 06.05.2017 #4 Created a basic home page - Boyan & Lacho
 28.05.2017 #5 Started improvement and refinement changes - Rangel
+29.05.2017 #6 Continuing refinement changes - Rangel
